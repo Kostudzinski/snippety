@@ -1,0 +1,14 @@
+a {
+    color: chartreuse;
+    font-size: 30px;
+    display: block;
+}
+
+a[href$="doc"] {
+    color: aqua;
+}
+
+a[href$="docx"] {
+    color: aquamarine;
+}
+

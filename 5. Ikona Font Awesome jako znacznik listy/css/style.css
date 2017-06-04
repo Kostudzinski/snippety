@@ -1,0 +1,15 @@
+#container {
+    background-color: aquamarine;
+    font-size: 30px;
+    color: black;
+}
+
+.ikona::before {
+    content: "\f099"; 
+    font-family: FontAwesome;
+}
+
+ul {
+    display: grid;
+    list-style-type: none;
+}

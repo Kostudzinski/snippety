@@ -1,0 +1,53 @@
+
+
+.container {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+    
+}
+
+.inner {
+        width: 80px;
+        height: 80px;
+        background-color: pink;
+}
+
+#container {
+
+        position: relative;
+        display: inline-block;
+    
+}
+
+#inner {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    
+}
+
+#container2 {
+        position: relative;
+        display: inline-block;
+
+        
+    
+}
+
+#inner2 {
+        position: absolute;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 50%);
+}
+
+#container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    margin-top: 100px;
+}
+
+#tecza {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, yellow, red, green, blue, violet);
+}
