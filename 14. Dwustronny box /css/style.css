@@ -1,0 +1,35 @@
+.box {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+
+}
+
+.boxfront, .boxback {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .3s;
+}
+
+.boxfront {
+    background-color: aqua;
+    z-index: 10;
+    backface-visibility: hidden;
+}
+
+.boxback {
+    background-color: lightpink;
+    transform: rotateY(180deg);
+}
+
+.box:hover .boxfront {
+    transform: rotateY(180deg);
+
+}
+
+.box:hover .boxback  {
+    transform: rotateY(0deg);
+}
